@@ -1,1 +1,1 @@
-This is a basic wireframe for my wire-frame-quiz project
+My wire frame Qiz app

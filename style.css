@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+  }
+  html{
+        background-image: url('http://tny.im/lM-');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    
+  }
+
+  .logo-img{
+    width: 55px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .start-section, .end-section, .popup-box{
+     font-size: 20px;
+     background-color: white;
+  }
+  
+  .start-section, .end-section{
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 12%;
+  }
+  .start-button{
+    background-color: #004C54;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    color: #A5ACAF;
+    padding: 10px 15px;
+  }
+  .start-button:hover{
+    background-color:  greenyellow;
+  }
+  .quiz-box{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px #a3c2c2;
+    position: relative;
+    margin-top: 12%;
+  }
+  
+  .progress-section, .questions-form, .score-card{
+    padding: 5px;
+  }
+  
+  .score-img{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 450px;
+    top: 10px;
+    margin: 0px;
+  }
+  
+  .score-card{
+   position: absolute;
+   left: 500px;
+   top: 25px;
+   font-weight: bold;
+   font-size: 20px;
+  }
+  
+  .questions-form p{
+    font-size: 18px;
+  }
+  .options{
+    display: block;
+    border: 1px solid #e0e0d1;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 auto;
+    background: #004C54;
+    display: block;
+    color: #A5ACAF;
+  }
+  .submit-button:hover{
+      background: greenyellow;
+  }
+  .feedback-section{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+   }
+  .popup-box{
+    max-width: 600px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 180px;
+    position: relative;
+  }
+  #popup-text{
+    display: block;
+    text-align: center;
+  }
+  .close-button{
+    display: block;
+    position: absolute;
+    width: 80px;
+    background: #004C54;
+    height: 50px;
+    padding: 0px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 37%;
+    color: #A5ACAF;
+  }
+  .close-button:hover{
+      background: greenyellow;
+  }
+  .popup-box img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  .end-section h4{
+    margin: 0px;
+  }
+  .end-section img{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    vertical-align: middle;
+  }
+  .count{
+    font-size: 20px;
+  }
+  .startover-button{
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #27496d;
+  }
+  @media screen and (max-width: 320px){
+      .start-section{
+        max-width: 180px;
+        font-size: 10px;
+      }
+      .start-button{
+        width: 60px;
+        text-align: center;
+        font-size: 12px;
+      }
+      .quiz-box{
+          left: 65%
+
+      }
+      .popup-box{
+        width: 25%;
+        height: 18%;
+          
+      }
+      .popup-box img{
+        width: 80%;
+        height: 40%;
+
+      }
+      .score-card{
+          left: 70%
+
+      }
+      .close-button{
+          right: 27%;
+      }
+      
+  }
+  
+
+
